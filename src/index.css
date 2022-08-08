@@ -1,13 +1,149 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /*====================
+  Typography - Component   
+  =====================*/
+
+  .text-md-normal {
+    @apply font-normal text-16 leading-24;
+  }
+  .text-md-medium {
+    @apply font-medium text-16 leading-24;
+  }
+  .text-sm-semibold {
+    @apply text-14 leading-20 font-semibold;
+  }
+  .text-lg-md {
+    @apply text-18 leading-28 font-medium;
+  }
+  .text-lg-normal {
+    @apply text-18 leading-28 font-normal;
+  }
+  .text-xl-bold {
+    @apply text-20 leading-30 font-bold;
+  }
+  .text-xl-normal {
+    @apply text-20 leading-30 font-normal;
+  }
+  .display-sm-medium {
+    @apply text-30 leading-38 font-medium md:text-36 md:leading-44 xl:text-48 xl:leading-60;
+  }
+  .display-md-medium {
+    @apply text-36 leading-44 font-medium;
+  }
+  .display-md-bold {
+    @apply text-36 leading-44 font-bold;
+  }
+  .display-sm-bold {
+    @apply text-30 leading-38 font-bold md:text-36 md:leading-44 xl:text-48 xl:leading-60;
+  }
+  .display-xs-bold {
+    @apply text-24 leading-32 font-bold;
+  }
+  .display-xl-bold {
+    @apply text-60 leading-72 font-bold;
+  }
+  .display-lg-bold {
+    @apply text-48 leading-60 font-bold;
+  }
+
+  .link-wrapper-yellow {
+    @apply relative bg-warning-300 rounded-2xl inline-block;
+  }
+
+  /*====================
+  Buttons - Component   
+  =====================*/
+  .btn-cta-green {
+    @apply text-white text-16 leading-24 xl:text-18 xl:leading-28 font-medium px-8 py-3 rounded-2xl bg-primary-525;
+  }
+  .btn-cta-yellow {
+    @apply text-gray-900 text-16 leading-24 xl:text-18 xl:leading-28 font-medium px-8 py-3 rounded-2xl bg-warning-300;
+  }
+  .btn-light-green {
+    @apply text-primary-500 text-16 leading-24 font-medium px-8 py-2 border border-primary-50 rounded-lg shadow-register bg-primary-50;
+  }
+  .btn-light-yellow {
+    @apply text-warning-500 text-16 leading-24 font-medium px-8 py-2 border border-warning-50 rounded-lg shadow-register bg-warning-50;
+  }
+
+  /*====================
+  Input - Component   
+  =====================*/
+  .input-with-icon {
+    @apply placeholder:text-[#989DB3] block bg-white w-full border border-gray-300 rounded-lg py-4 pl-10 pr-3 shadow-register focus:outline-none focus:border-gray-300;
+  }
+
+  /*====================
+  Login register - Header   
+  =====================*/
+  .register {
+    @apply bg-primary-default border border-primary-default shadow-register px-4 py-3 rounded-lg;
+  }
+  .login {
+    @apply px-4 py-3;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .wrappper {
+    width: calc(100% - 30px);
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  .wrappper {
+    width: calc(100% - 30px);
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 641px) {
+}
+
+@media only screen and (min-width: 1024px) {
+  .footerContainer {
+    width: 1024px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .footerContainer {
+    width: 1280px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 1281px) {
+  .wrappper {
+    width: calc(100% - 60px);
+    padding: 0px 30px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 1536px) {
+  .wrappper {
+    width: calc(100% - 100px);
+    padding: 0px 50px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .wrappper {
+    width: calc(100% - 250px);
+    padding: 0px 125px;
+    margin: 0 auto;
+  }
 }
