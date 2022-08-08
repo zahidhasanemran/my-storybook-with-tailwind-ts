@@ -116,3 +116,171 @@ const Footer: React.FC = () => {
 }
 
 export default Footer
+
+// export const footerLinks = [
+//   {
+//     id: 1,
+//     title: "Company",
+//     links: [
+//       { id: 1, text: "Home", link: "/home", extraClass: "" },
+//       { id: 2, text: "Sign Up", link: "/register", extraClass: "" },
+//       { id: 3, text: "About us", link: "/aboutus", extraClass: "" },
+//       { id: 4, text: "Careers", link: "/careers", extraClass: "" },
+//       { id: 5, text: "Pricing", link: "/pricing", extraClass: "" },
+//       { id: 6, text: "Contact Us", link: "/contactus", extraClass: "" },
+//     ],
+//   },
+//   {
+//     id: 2,
+//     title: "Product",
+//     links: [
+//       { id: 1, text: "Overview", link: "/overview", extraClass: "" },
+//       { id: 2, text: "Find Jobs", link: "/findJobs", extraClass: "" },
+//       { id: 3, text: "Post a Job", link: "/postJob", extraClass: "" },
+//       { id: 4, text: "Solutions", link: "/solution", extraClass: "badge new" },
+//     ],
+//   },
+//   {
+//     id: 3,
+//     title: "Support",
+//     links: [
+//       { id: 1, text: "Help Centre", link: "/helpCenter", extraClass: "" },
+//       { id: 2, text: "Contact Support", link: "/contactLink", extraClass: "" },
+//       { id: 3, text: "Blog", link: "/blogLink", extraClass: "" },
+//     ],
+//   },
+//   {
+//     id: 4,
+//     title: "Social",
+//     links: [
+//       { id: 1, text: "Twitter", link: "/twLink", extraClass: "" },
+//       { id: 2, text: "Linkedin", link: "/lnkLink", extraClass: "" },
+//       { id: 3, text: "Facebook", link: "/fbLink", extraClass: "" },
+//       { id: 4, text: "Instagram", link: "/insLink", extraClass: "" },
+//       { id: 5, text: "Youtube", link: "/ytLink", extraClass: "" },
+//     ],
+//   },
+//   {
+//     id: 5,
+//     title: "Legal",
+//     links: [
+//       { id: 1, text: "Terms", link: "/termsLink", extraClass: "" },
+//       { id: 2, text: "Privacy", link: "/privacyLink", extraClass: "" },
+//       { id: 3, text: "Cookies", link: "/cookiesLink", extraClass: "" },
+//       { id: 4, text: "Licenses", link: "/licensesLink", extraClass: "" },
+//     ],
+//   },
+// ]
+
+// styles
+
+// @media only screen and (min-width: 320px) {
+//   .wrappper {
+//     width: calc(100% - 30px);
+//     margin: 0 auto;
+//   }
+// }
+
+// @media only screen and (min-width: 640px) {
+//   .wrappper {
+//     width: calc(100% - 30px);
+//     padding-left: 15px;
+//     padding-right: 15px;
+//     margin: 0 auto;
+//   }
+// }
+
+// @media only screen and (min-width: 641px) {
+// }
+
+// @media only screen and (min-width: 1024px) {
+//   .footerContainer {
+//     width: 1024px;
+//     margin: 0 auto;
+//   }
+// }
+// @media only screen and (min-width: 1280px) {
+//   .footerContainer {
+//     width: 1280px;
+//     margin: 0 auto;
+//   }
+// }
+// @media only screen and (min-width: 1281px) {
+//   .wrappper {
+//     width: calc(100% - 60px);
+//     padding: 0px 30px;
+//     margin: 0 auto;
+//   }
+// }
+// @media only screen and (min-width: 1536px) {
+//   .wrappper {
+//     width: calc(100% - 100px);
+//     padding: 0px 50px;
+//     margin: 0 auto;
+//   }
+// }
+// @media only screen and (min-width: 1920px) {
+//   .wrappper {
+//     width: calc(100% - 250px);
+//     padding: 0px 125px;
+//     margin: 0 auto;
+//   }
+// }
+
+// screens: {
+//   xs: "375px",
+//   sm: "480px",
+//   md: "768px",
+//   lg: "1024px",
+//   xl: "1280px",
+//   "2xl": "1366px",
+//   "3xl": "1440px",
+//   "4xl": "1560px",
+//   "5xl": "1920px",
+// },
+// colors: {
+//   primary: {
+//     default: "#15C39A",
+//     525: "#13B58F",
+//     500: "#15C39A",
+//     50: "#E8F9F5",
+//   },
+//   secondary: {
+//     main: "#21263B",
+//   },
+//   warning: {
+//     50: "#FFFAEB",
+//     300: "#FEC84B",
+//     500: "#F79009",
+//     600: "#DC6803",
+//     900: "#7A2E0E",
+//   },
+//   gray: {
+//     900: "#21263B",
+//     500: "#666C85",
+//     400: "#98A2B3",
+//     300: "#D0D5DD",
+//     200: "#E4E7EC",
+//     100: "#F2F3F7",
+//     50: "#F9F9FB",
+//   },
+//   success: {
+//     900: "#054F31",
+//     600: "#039855",
+//     500: "#ECFDF3",
+//   },
+//   purple: {
+//     900: "#3E1C96",
+//     600: "#6938EF",
+//     500: "#F4F3FF",
+//   },
+//   blue: {
+//     light: {
+//       900: "#0B4A6F",
+//       600: "#0086C9",
+//       500: "#F0F9FF",
+//     },
+//   },
+//   white: "#fff",
+//   transparent: "transparent",
+// },
