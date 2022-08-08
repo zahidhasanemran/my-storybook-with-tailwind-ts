@@ -1,7 +1,7 @@
 // import React from "react"
 import { ComponentStory, ComponentMeta } from "@storybook/react"
+import Footer from "../../components/FooterColored"
 // import { within, userEvent } from "@storybook/testing-library"
-import Footer from "../../components/footer/Footer"
 
 export default {
   title: "Pages/Footer",
@@ -15,7 +15,7 @@ const Template: ComponentStory<typeof Footer> = (args: any) => (
   <Footer {...args} />
 )
 
-export const whiteFooter = Template.bind({})
+export const ColoredFooter = Template.bind({})
 
 // More on interaction testing: https://storybook.js.org/docs/react/writing-tests/interaction-testing
 

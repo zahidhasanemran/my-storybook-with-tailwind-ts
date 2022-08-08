@@ -25,8 +25,7 @@ const Footer: React.FC = () => {
                   <img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ4pA7mRcF8Q-LYV3iaPmlXjlA3hhp7HtzQw&usqp=CAU"
                     alt=""
-                    className=""
-                    height={40}
+                    className="h-10"
                   />
                 </a>
               </div>
@@ -72,42 +71,42 @@ const Footer: React.FC = () => {
             <div className="socialLinks pt-8 lg:pt-0 justify-left my-4 flex flex-nowrap space-x-4 sm:justify-start items-center">
               <a href="/" rel="noreferrer" target="_blank">
                 <img
-                  height="16"
+                  className="h-6"
                   src="https://img.icons8.com/ios-glyphs/452/facebook-new.png"
                   alt=""
                 />
               </a>
               <a href="/" rel="noreferrer" target="_blank">
                 <img
-                  height="16"
+                  className="h-6"
                   src="https://img.icons8.com/ios-glyphs/452/facebook-new.png"
                   alt=""
                 />
               </a>
               <a href="/" rel="noreferrer" target="_blank">
                 <img
-                  height="16"
+                  className="h-6"
                   src="https://img.icons8.com/ios-glyphs/452/facebook-new.png"
                   alt=""
                 />
               </a>
               <a href="/" rel="noreferrer" target="_blank">
                 <img
-                  height="16"
+                  className="h-6"
                   src="https://img.icons8.com/ios-glyphs/452/facebook-new.png"
                   alt=""
                 />
               </a>
               <a href="/" rel="noreferrer" target="_blank">
                 <img
-                  height="16"
+                  className="h-6"
                   src="https://img.icons8.com/ios-glyphs/452/facebook-new.png"
                   alt=""
                 />
               </a>
             </div>
             <p className="text-md-medium text-gray-500 font-normal py-6">
-              © 2022 PediaDesk. All rights reserved.
+              © 2022 Demo. All rights reserved.
             </p>
           </div>
         </div>
