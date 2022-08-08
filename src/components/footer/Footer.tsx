@@ -72,35 +72,35 @@ const Footer: React.FC = () => {
             <div className="socialLinks pt-8 lg:pt-0 justify-left my-4 flex flex-nowrap space-x-4 sm:justify-start items-center">
               <a href="/" rel="noreferrer" target="_blank">
                 <img
-                  height={16}
+                  height="16"
                   src="https://img.icons8.com/ios-glyphs/452/facebook-new.png"
                   alt=""
                 />
               </a>
               <a href="/" rel="noreferrer" target="_blank">
                 <img
-                  height={16}
+                  height="16"
                   src="https://img.icons8.com/ios-glyphs/452/facebook-new.png"
                   alt=""
                 />
               </a>
               <a href="/" rel="noreferrer" target="_blank">
                 <img
-                  height={16}
+                  height="16"
                   src="https://img.icons8.com/ios-glyphs/452/facebook-new.png"
                   alt=""
                 />
               </a>
               <a href="/" rel="noreferrer" target="_blank">
                 <img
-                  height={16}
+                  height="16"
                   src="https://img.icons8.com/ios-glyphs/452/facebook-new.png"
                   alt=""
                 />
               </a>
               <a href="/" rel="noreferrer" target="_blank">
                 <img
-                  height={16}
+                  height="16"
                   src="https://img.icons8.com/ios-glyphs/452/facebook-new.png"
                   alt=""
                 />
